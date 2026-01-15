@@ -1,0 +1,116 @@
+ {
+  margin: 0;
+  padding: 10;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f9f9f9;
+  color: #333;
+  line-height: 1.6;
+}
+{
+  color: #0066cc;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+.header {
+  background: linear-gradient(135deg, #1f2933, #111827);
+  color: #ffffff;
+  text-align: center;
+  padding: 3rem 1rem;
+}
+
+.header h1 {
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.header p {
+  font-size: 1.2rem;
+  opacity: 0.9;
+}
+section {
+  max-width: 1100px;
+  margin: 2.5rem auto;
+  padding: 0 1.5rem;
+}
+
+section h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  color: #111827;
+  border-bottom: 3px solid #0066cc;
+  display: inline-block;
+  padding-bottom: 0.3rem;
+}
+#about p {
+  font-size: 1.05rem;
+  margin-top: 0.8rem;
+}
+.skills-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  margin-top: 1rem;
+  list-style: none;
+}
+
+.skills-list li {
+  background-color: #e5f0ff;
+  color: #003366;
+  padding: 0.5rem 1rem;
+  border-radius: 20px;
+  font-size: 0.95rem;
+  font-weight: 500;
+}
+.project-card {
+  background-color: #ffffff;
+  border-radius: 10px;
+  padding: 1.5rem;
+  margin-top: 1.5rem;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.08);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+#contact p {
+  margin: 0.6rem 0;
+  font-size: 1.05rem;
+}
+footer {
+  background-color: #111827;
+  color: #ffffff;
+  text-align: center;
+  padding: 1.2rem;
+  margin-top: 3rem;
+}
+
+footer p {
+  font-size: 0.9rem;
+  opacity: 0.9;
+}
+@media (max-width: 768px) {
+  .header h1 {
+    font-size: 2rem;
+  }
+
+  section h2 {
+    font-size: 1.6rem;
+  }
+
+  section {
+    margin: 2rem auto;
+  }
+}
+
+@media (max-width: 480px) {
+  .header {
+    padding: 2.5rem 1rem;
+  }
+
+  .skills-list {
+    justify-content: center;
+  }
+}
